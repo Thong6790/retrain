@@ -1,31 +1,31 @@
 # Retrain
 
-**Retrain** là dự án cá nhân giúp tự động bấm nút **HUẤN LUYỆN** trong Warpath bằng Raspberry Pi Pico W.
+**Retrain** is a personal project that automatically clicks **HUẤN LUYỆN** ("TRAIN") buttons in Warpath using a Raspberry Pi Pico W.
 
-## Làm được gì?
+## What it does
 
-- Tự nhận diện và bấm các nút **HUẤN LUYỆN** đang hiển thị.
-- Tự tìm Raspberry Pi Pico W, không cần người dùng chọn cổng COM.
-- Hỗ trợ cài firmware Pico W trực tiếp từ ứng dụng.
-- Chạy liên tục cho đến khi nhấn **F12**.
-- Tự dừng khi xuất hiện màn hình **Xác Thực**.
+- Detects and clicks every visible **HUẤN LUYỆN** button.
+- Automatically finds the connected Raspberry Pi Pico W; no COM port selection is required.
+- Installs the Pico W firmware directly from the application.
+- Runs continuously until you press **F12**.
+- Automatically stops when the **Xác Thực** verification screen appears.
 
-## Yêu cầu
+## Requirements
 
-- Windows 10 hoặc Windows 11.
+- Windows 10 or Windows 11.
 - Raspberry Pi Pico W (RP2040).
-- Cáp USB có truyền dữ liệu.
+- A USB cable that supports data transfer.
 
-## Quyền sử dụng
+## Usage and licensing
 
-Đây là dự án cá nhân và repository này chỉ dùng để giới thiệu sản phẩm và phát hành bản cài đặt.
+This is a personal project. This public repository is provided only to describe the product and distribute official releases.
 
-Phần mềm **không phải mã nguồn mở**. Việc tải xuống không tự động cấp quyền sử dụng. Mỗi máy tính cần mã kích hoạt riêng do chủ dự án cấp.
+Retrain is **proprietary software and is not open source**. Downloading the application does not grant permission to use it. Each computer requires an individual activation code issued by the project owner.
 
-Muốn sử dụng, vui lòng liên hệ trực tiếp với [Thong6790](https://github.com/Thong6790) để xin quyền và mã kích hoạt.
+To request permission and activation, contact [Thong6790](https://github.com/Thong6790) directly.
 
-Không được tự ý sao chép, bán lại, phân phối lại, sửa đổi hoặc reverse engineer phần mềm.
+Unauthorized copying, resale, redistribution, modification, and reverse engineering are prohibited.
 
-## Tải xuống
+## Download
 
-Bản phát hành mới nhất nằm trong mục [Releases](https://github.com/Thong6790/retrain/releases).
+Download the latest version from [Releases](https://github.com/Thong6790/retrain/releases).
